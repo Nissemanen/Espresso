@@ -19,14 +19,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-
+                <version>3.4.1</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>io.github.nissemanen.coreEngine.Main</mainClass>
+                            <mainClass>io.github.nissemanen.Espresso</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
             </plugin>
         </plugins>
     </build>
