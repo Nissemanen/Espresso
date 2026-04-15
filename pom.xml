@@ -23,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>io.github.nissemanen.Main</mainClass>
+                            <mainClass>io.github.nissemanen.coreEngine.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
